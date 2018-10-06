@@ -8,6 +8,9 @@ body{
 .new1{
 list-style-image: url(../images/green_dot.jpg);
 }
+.new2{
+	list-style-image: url(../images/orange_dot.jpg);
+	}
 nav{
 	display:block;
 }
