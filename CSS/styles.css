@@ -5,6 +5,9 @@ body{
 #call_us{
 	text-align:left;
 }
+.new1{
+list-style-image: url(images/green_dot.jpg);
+}
 nav{
 	display:block;
 }
