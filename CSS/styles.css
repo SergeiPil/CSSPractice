@@ -10,28 +10,7 @@ list-style-image: url(../images/green_dot.jpg);
 }
 .new2{
 	list-style-image: url(../images/orange_dot.jpg);
-	}
-nav{
-	display:block;
 }
-header {
-	margin:0;
-  	background:url(images/header_bg.jpg) no-repeat;
-	background-size:100%;
-}
-.topmenu{
-	display:inline-block;
-	
-}
-#home{
-	background:url(images/home_hover.jpg) no-repeat;
-	
-	
-}
-#growth_bg{
-	background:url(images/growth_bg.jpg) no-repeat;
-	background-size:100%;
-}
-#t1{
-	color:#7F9D07;
+.new3{
+	color:#C70000;
 }
