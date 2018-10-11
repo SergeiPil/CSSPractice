@@ -14,6 +14,7 @@ header{
     height:524px;
 	background-image: url(../images/top_bg.jpg);
 	background-size: auto 524px;
+	background-repeat: repeat-x;
 }
 
 footer{
@@ -22,6 +23,7 @@ footer{
 	width: 100%;
 	background-image: url(../images/footer_bg.jpg);
 	background-size: auto 122px;
+	background-repeat: repeat-x;
 }
 .topHeader{
 	margin: 0;
@@ -31,6 +33,7 @@ footer{
 	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: 1000px 524px;
-	background-position: center;
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
