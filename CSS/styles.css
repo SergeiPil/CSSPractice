@@ -37,6 +37,7 @@ footer{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 .mainContent{
 	width:1000px;
@@ -62,4 +63,57 @@ footer{
 	border-radius: 10px;
 	font-size: 10px;
 	background-color: #F6F6F6;	
+}
+#logo{
+	width:286px;
+	height:72px;
+	position: absolute;
+	top: 13%;
+	left:1.5%;
+	
+
+}
+#callUs{
+	width:190px;
+	height:13px;
+	position: absolute;
+	top:3.3%;
+	right: 1.8%;
+	color:#FFF;
+	font-size: 12px;
+	font-weight: 700;
+}
+.topNav{
+	width:650px;
+	height:106px;
+	position: absolute;
+	left:34%;
+	top:9.6%;
+	
+}
+.topNav nav ul li{
+	list-style: none;
+	font-size: 13px;
+	font-weight: 700;
+	display: inline-block;
+	padding-left:42px;
+	padding-top: 7.4%;
+	
+	
+}
+.genInfo{
+	width:434px;
+	height:212px;
+	position: absolute;
+	border: 1px solid #000000;
+	left: 52.8%;
+	top:52%;	
+}
+.genInfo p{
+	color:#FFF;
+	
+}
+#tex1{
+color: #FFF;
+font-size: 200px;
 }
