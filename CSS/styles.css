@@ -23,6 +23,7 @@ header{
 	background-repeat: repeat-x;
 	border-bottom: 1px solid #ABABAB;
 	
+	
 }
 
 footer{
@@ -49,10 +50,18 @@ footer{
 	
 }
 .mainContent{
+	position: relative;
+	
+	
+}
+.wrapperContent{
+	position: relative;
 	width:1000px;
+	height: 774px;
 	margin-left: auto;
 	margin-right: auto;
 	
+
 }
 .botFooter{
 	width:1000px;
@@ -61,17 +70,30 @@ footer{
 	
 }
 .formRegister{
+	position: absolute;
+	right:30px;
+	top:114px;
 	width:255px;
 	height:288px;
 	border-radius: 10px;
 	background-color: #F6F6F6;
+	background-image: url(../images/login_top.jpg);
+	background-repeat: no-repeat;
+	
+	
 }
 .lastNews{
+	position: absolute;
+	top:421px;
+	right: 30px;
 	width:255px;
 	height:327px;
 	border-radius: 10px;
 	font-size: 10px;
+	background-image: url(../images/event_top.jpg);
+	background-repeat: no-repeat;
 	background-color: #F6F6F6;	
+	border: 1px solid #E3E3E3;
 }
 nav{
 	position: relative;
@@ -138,11 +160,27 @@ nav{
 	font-size: 12px;
 	font-weight: 700;
 }
-.genInfo{
-	width:434px;
-	height:212px;
+.infoLabel{
 	position: absolute;
-	border: 1px solid #000000;
-	left: 52.8%;
-	top:52%;	
-}
+	top:-31px;
+	width:1000px;
+	height:145px;
+	background-image: url(../images/growth_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 145px;
+	padding-left: 31px;
+	opacity:0.9;
+	}
+
+	#infoL1{
+		text-transform: uppercase;
+		padding-top: 40px;
+		color: #516372;
+		font-weight: bolder;
+		font-size: 24px;
+	}
+	#infoL2{
+		padding-top: 8px;
+		color: #959C9F;
+		font-size: 16px;
+	}
