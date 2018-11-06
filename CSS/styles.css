@@ -31,6 +31,7 @@ footer{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height:122px;
 	background-image: url(../images/footer_bg.jpg);
 	background-size: auto 122px;
 	background-repeat: repeat-x;
