@@ -104,6 +104,36 @@ p #welcome1{
 	font-weight: 700;
 	font-size: 13.6px;
 }
+.parag1,.parag2,.parag3,.parag4{
+	color: #516372;
+	font-size: 14px;
+}
+.parag1{
+	padding-top: 18px;
+}
+.readMore {
+	padding-top:15px;
+	padding-bottom: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#F78D1A;
+}
+#hed3{
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+.hed5{
+	font-weight: bold;
+	color:#F78D1A;
+	padding-top:10px;
+	padding-bottom: 10px;	
+}
+.loadingTime{
+ background-image: url(/images/pic1.jpg);
+ background-position-x: left;
+}
 .formRegister{
 	position: absolute;
 	right:30px;
