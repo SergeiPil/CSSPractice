@@ -11,7 +11,7 @@ li{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 header{
 	margin: 0;
@@ -114,9 +114,11 @@ p #welcome1{
 .readMore {
 	padding-top:15px;
 	padding-bottom: 15px;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	color:#F78D1A;
+	list-style-image: url(../images/green_dot.jpg);
+	list-style-position: inside;
 }
 #hed3{
 	text-transform: uppercase;
@@ -136,7 +138,7 @@ p #welcome1{
 }
 .formRegister{
 	position: absolute;
-	right:30px;
+	right:15px;
 	top:114px;
 	width:255px;
 	height:288px;
@@ -159,6 +161,59 @@ p #welcome1{
 	border-radius:0 0 10px 10px;
 	
 }
+.formMain{
+	position: relative;
+	top:-19px;
+}
+.new3{
+	color:#F61414;
+	padding-left: 2px;
+}
+.labelReg{
+	padding-left: 50px;
+	color:#566369;
+	font-size: 13.5px;
+	}
+#labelReg1{
+	margin-top: -20px;
+}
+.textReg{
+	list-style-image: url(../images/orange_dot.jpg);
+	list-style-position: inside;
+	font-size: 12px;
+	padding-bottom: 5px; 
+	padding-left: 36px;
+	margin-top: -6px;
+	color:#566369;
+}
+#textRegNew{
+	margin-top: 0px;	
+}
+#buttonLog{
+	display: inline-block;
+	margin-left: 36px;
+	color: #FFF;
+	height: 27px;
+	width:75px;
+	background:linear-gradient(#EB8813, #E38916) #E38916;
+	border-radius: 14px;
+	border: none;
+	font-weight: bold;
+	
+}
+.formFields{
+	display: inline-block;
+	border-radius: 15px;
+	border-top: 1px solid #C1C1C1;
+	border-right: none;
+	border-left: 1px solid #C1C1C1;
+	border-bottom:none;
+	margin-top: 5px;
+	padding-left: 15px;
+	margin-left: 36px;
+	height: 27px;
+	width:170px;
+}
 #usLog{
 	color: #8AAE00;
 	font-size: 24px;
@@ -170,7 +225,7 @@ p #welcome1{
 .lastNews{
 	position: relative;
 	top:421px;
-	left:715px;
+	left:730px;
 	width:255px;
 	height:327px;
 	border-radius: 10px;
@@ -196,6 +251,40 @@ p #welcome1{
 	border-bottom:1px solid #E1E1E1;
 	border-radius:0 0 10px 10px;
 	
+}
+#hedNews{
+	padding-left: 63px;
+	margin-top: -40px;
+	font-size: 26px;
+	color:#F78D1A;
+}
+.dateDisp{
+	list-style-image: url(../images/green_right.jpg);
+	list-style-position: inside;
+	color: #A2995E;
+	font-size: 12px;
+	font-weight: 600;
+	padding-left: 20px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+#dateDisp1{
+	padding-top: 0px;
+}
+.new2{
+	list-style-image: url(../images/orange_dot.jpg);
+	list-style-position: inside;
+	font-weight: bold;
+	color:#F78D1A;
+	font-size: 11px;
+	padding-left: 52px;
+	padding-top: 10px;
+}
+.textNews{
+	font-size: 14px;
+	padding-top: 4px;
+	padding-left: 52px;
+	color: #59626B;
 }
 .genInfo{
 	width: 100%;
