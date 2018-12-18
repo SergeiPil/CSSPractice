@@ -50,19 +50,33 @@
 				<p class="welcome0"><span id="welcome1">Welcome</span> to our company website!</p>
 				<p class="hed1">Lorem ipsum dolor sit amet, consectetueradipiscing elit. Donec molestie.</p>
 				<p class="parag1">Phasellus sollicitudin.Vestibulum condimentum facilisis nulla. In hac habitasse platea dictumst.Nulla nonummy. Cras quis libero. Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo. Praesent aliquet pretium erat. Praesent non odio. Pellentesquea magna a mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.</p>
-				<a href="#" ><p class="readMore">Read more</p></a>
+				<a href="#" >
+					<ul>
+						<li class="readMore">Read more</li>
+					</ul>
+				</a>
+
+
 				<h3 id="hed3">work smarter with our business company</h3>
 				<p  class="parag2" >Phasellus sollicitudin.Vestibulum condimentum facilisis nulla. In hac habitasse platea dictumst.Nulla nonummy. Cras quis libero. Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo. Praesent aliquet pretium erat.</p>
 				<div class="loadingTime">
 					<h5 class="hed5">Phasellus sollicitudin.Vestibulum condimentum facilisis nulla.</h5>
 					<p class="parag3">Phasellus sollicitudin.Vestibulum condimentum facilisis nulla. In hac habitasse platea dictumst.Nulla nonummy. Cras quis libero. Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo. Praesent aliquet pretium erat.</p>
-					<a href="#" ><p class="readMore">Read more</p></a>
+					<a href="#" >
+						<ul>
+							<li class="readMore">Read more</li>
+						</ul>
+					</a>
 				</div>
 				<div class="repairMan">
 					<img src="images\pic2.jpg" alt="pic2">
 					<h5 class="hed5">Phasellus sollicitudin.Vestibulum condimentum facilisis nulla.</h5>
 					<p class="parag4">Phasellus sollicitudin.Vestibulum condimentum facilisis nulla. In hac habitasse platea dictumst.Nulla nonummy. Cras quis libero. Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo. Praesent aliquet pretium erat.</p>
-					<a href="#" ><p class="readMore">Read more</p></a>	
+					<a href="#" >
+						<ul>
+							<li class="readMore">Read more</li>
+						</ul>
+					</a>
 				</div>
 				
 			</div>
@@ -74,20 +88,22 @@
 		<div class="formRegister">
 		<span id="usLog">USER LOGIN</span>
 		<div class="wrapperCheckIn">
-		<form>
+		<form class="formMain">
 		
-                            <label for="Log">username<span class="new3">*</span></label><br />
-                            <br />
-                            <a><input type="text"   placeholder="enter your name" id="Log" name="enter your name" /></a><br />
-                            <br />
-                            <label for="Pass">password<span class="new3">*</span></label><br />
-                            <br />
-                            <a name="Pass"><input type="password" name="Enter the password" id="Pass" placeholder="........"/></a><br />
-                            <br />
-                            <input type="button" name="Login" value="1"  tabindex="7"/>Login<br />
-                            <br />
+                            <label for="Log" class="labelReg" id="labelReg1">username<span class="new3">*</span></label><br />
+							<a><input type="text"   placeholder="enter your name" id="Log" name="enter your name" class="formFields" /></a><br />
+                            <label for="Pass" class="labelReg" id="labelReg2"> password<span class="new3">*</span></label><br />
+							<a name="Pass"><input type="password" name="Enter the password" id="Pass" placeholder="........" class="formFields"/></a><br />
+							<br />
+							<button type="button" id="buttonLog">Login</button><br />
 		
 		</form>
+		<ul>
+				<li class="textReg">Create new account</li>
+		</ul>
+		<ul>
+				<li class="textReg" id="textRegNew">Request new password</li>
+		</ul>
 		
 	    </div>
 		</div>
@@ -97,19 +113,26 @@
 			<img src="images/event_top.jpg" alt="event_top">
 			</div>
 			<div class="wrapperNews">
-			<h3>latest news</h3>
-			<img src="images/green_right.jpg" alt="login_top"><br >
-			<p>FEB 28,2010</p>
-			<p>Lorem ipsum dolor sit amet, consectetueradipiscing elit. Donec molestie.Sed aliquams.</p>			
-			<ul class="new2">
-			    <li>more</li>
+			<h3 id="hedNews">latest news</h3>
+			<ul>
+				<li class="dateDisp">FEB 28,2010</li>
 			</ul>
-			<img src="images/green_right.jpg" alt="login_top">
-			<p>FEB 28,2010</p>
-			<p>Lorem ipsum dolor sit amet, consectetueradipiscing elit. Donec molestie.Sed aliquams.</p>			
-			<ul class="new2">
-				<li>more</li>
+			
+			<p class="textNews">Lorem ipsum dolor sit amet, consectetueradipiscing elit. Donec molestie.Sed aliquams.</p>			
+			<a href="#" >
+				<ul>
+					<li class="new2">more</li>
+				</ul>
+			</a>
+			<ul id="dateDisp1">
+				<li class="dateDisp">FEB 28,2010</li>
 			</ul>
+			<p class="textNews">Lorem ipsum dolor sit amet, consectetueradipiscing elit. Donec molestie.Sed aliquams.</p>			
+			<a href="#" >
+				<ul>
+					<li class="new2">more</li>
+				</ul>
+			</a>
 			</div>
 		</div>
 		
