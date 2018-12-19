@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	outline: 0;
 }
 a{
 	text-decoration: none;
@@ -72,14 +73,32 @@ footer{
 	
 }
 .botMenu{
-	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	color:#F78D1A;
+	margin-top: 53px;
+	margin-left: 35px;
 }
-.copyRight{
-	float: left;
-}
+
 #copRight{
 	color:#566369;
 	font-size:12px;
+	margin-top: 53px;
+	margin-left: 65px;
+}
+.listMenu{
+	display: flex;
+}
+.listMenu li a{
+	color:#F78D1A;
+	padding:0 15px 0 13px;
+	
+}
+.listMenu li a:hover{
+	color:#8AAE00;
+}
+.listMenu li:active{
+	color:#8AAE00;
 }
 .leftContent{
 	position: absolute;
@@ -120,6 +139,12 @@ p #welcome1{
 .parag1{
 	padding-top: 18px;
 }
+.parag2{
+	padding-top: 10px;
+}
+.parag3,.parag4{
+	padding-top: 7px;
+}
 .readMore {
 	padding-top:15px;
 	padding-bottom: 15px;
@@ -128,6 +153,9 @@ p #welcome1{
 	color:#F78D1A;
 	list-style-image: url(../images/green_dot.jpg);
 	list-style-position: inside;
+}
+.doubleRead{
+	padding-top: 20px;
 }
 #hed3{
 	text-transform: uppercase;
@@ -141,11 +169,21 @@ p #welcome1{
 	padding-top:10px;
 	padding-bottom: 10px;	
 }
-.loadTime{
+.loadTime, .repairPNG,.botMenu,.copyRight{
 	float: left;
 }
-.repairPNG{
-	float: left;
+.loadingTime{
+	padding-top:25px;
+}
+.repairMan{
+	padding-top: 30px;
+}
+.repairMan,.loadingTime{
+	padding-left: 115px;
+}
+.loadTime,.repairPNG{
+	position: relative;
+	bottom: -35px;
 }
 .formRegister{
 	position: absolute;
@@ -197,6 +235,9 @@ p #welcome1{
 	margin-top: -6px;
 	color:#566369;
 }
+.textReg:hover{
+	color:#F78D1A;
+}
 #textRegNew{
 	margin-top: 0px;	
 }
@@ -206,11 +247,18 @@ p #welcome1{
 	color: #FFF;
 	height: 27px;
 	width:75px;
-	background:linear-gradient(#EB8813, #E38916) #E38916;
+	background-color: #979797;
 	border-radius: 14px;
 	border: none;
 	font-weight: bold;
+	outline: none;
 	
+}
+#buttonLog:active{
+	outline: none;
+}
+#buttonLog:hover{
+	background:linear-gradient(#EB8813, #E38916) #E38916;
 }
 .formFields{
 	display: inline-block;
@@ -242,10 +290,7 @@ p #welcome1{
 	border-radius: 10px;
 	font-size: 10px;
 	background-color: #F6F6F6;
-	
-	
-	
-	
+
 }
 .eventTop{
 	position:absolute;
@@ -281,6 +326,12 @@ p #welcome1{
 }
 #dateDisp1{
 	padding-top: 0px;
+}
+input[placeholder="enter your name"]{
+	opacity: 0.6;
+}
+input[placeholder="........"]{
+	opacity: 0.6;
 }
 .new2{
 	list-style-image: url(../images/orange_dot.jpg);
@@ -331,43 +382,32 @@ h2{
 nav{
 	position: relative;
 	margin-left:110px;
-	margin-top: 47px;
-	
-	}
-
-.topNav a{
-	color: #000000;
-	text-align: center;
-	font-size: 12px;
-	font-weight: bold;
-	
+	margin-top: 32px;
 }
-.topNav a:hover{
+.navigation{
+	float: left;
+	width:590px;
+}
+.navigation li{
+	font-weight: bolder;
+	font-size: 13px;
+	float: left;
+	padding: 20px 40px 0 0;
+}
+.navigation li a{
+	color: #000000;
+}
+.navigation li a:hover{
+	display: block;
+    margin: 0 auto;
+	height: 39px;
+	width: 79px;
 	background-image: url(../images/home_hover.jpg);
 	background-repeat: no-repeat;
-	background-size: 77px 34px;
-	background-position: center;
-	color:#FFF;
-}
-.topNav #topNav1{
-	padding-left: 51px;
+	text-align: center;
+	color: #ffffff;
 	
 }
-.topNav #topNav2{
-	padding-left: 43px;
-}
-.topNav #topNav3{
-	padding-left: 41px;
-}
-.topNav #topNav4{
-	padding-left: 42px;
-}
-.topNav #topNav5{
-	padding-left: 42px;
-	
-}
-
-
 .logoNav{
 	position: relative;
 	height:108px;
@@ -398,7 +438,10 @@ nav{
 	height: 32px;
 	border-radius: 5px;
 	border: none;
-	background-color: #E8E8E8;
+	background:linear-gradient(to bottom, #EEEEEE, #B4B4B4);
+}
+#but1:hover{
+	color: #F78D1A;
 }
 .infoLabel{
 	position: absolute;
@@ -423,4 +466,13 @@ nav{
 		padding-top: 8px;
 		color: #959C9F;
 		font-size: 16px;
+	}
+	.hed5:hover{
+		color: #8AAE00;
+	}
+	.new2:hover{
+		color: #8AAE00;
+	}
+	.readMore:hover{
+		color: #8AAE00;
 	}
