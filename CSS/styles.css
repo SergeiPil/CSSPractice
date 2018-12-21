@@ -52,7 +52,7 @@ footer{
 	
 	
 }
-.mainContent{
+main{
 	position: relative;
 	
 	
@@ -97,7 +97,7 @@ footer{
 .listMenu li a:hover{
 	color:#8AAE00;
 }
-.listMenu li:active{
+.listMenu li a:focus{
 	color:#8AAE00;
 }
 .leftContent{
@@ -224,7 +224,10 @@ p #welcome1{
 	font-size: 13.5px;
 	}
 #labelReg1{
-	margin-top: -20px;
+	margin-top: 10px;
+}
+.labelReg2{
+	padding-top: 5px;
 }
 .textReg{
 	list-style-image: url(../images/orange_dot.jpg);
@@ -330,7 +333,8 @@ p #welcome1{
 input[placeholder="enter your name"]{
 	opacity: 0.6;
 }
-input[placeholder="........"]{
+input[placeholder="........" ]{
+	font-size: 14px;
 	opacity: 0.6;
 }
 .new2{
@@ -381,32 +385,46 @@ h2{
 }
 nav{
 	position: relative;
-	margin-left:110px;
-	margin-top: 32px;
+	margin-left:70px;
+	margin-top: 34px;
 }
 .navigation{
 	float: left;
-	width:590px;
+	width:900px;
+	
+	
 }
 .navigation li{
 	font-weight: bolder;
 	font-size: 13px;
 	float: left;
-	padding: 20px 40px 0 0;
+	padding: 18px 14px 0 0;
+	
 }
 .navigation li a{
 	color: #000000;
+	display: block;
+	text-align: center;
+	
+	height: 39px;
+	width: 80px;
+	
+}
+.navigation li:hover{
+	display: block;
+	margin-top:5px;
+	background-image: url(../images/home_hover.jpg);
+	background-repeat: no-repeat;
 }
 .navigation li a:hover{
 	display: block;
-    margin: 0 auto;
+	margin:-6px 0  0 0;
+	padding: 0;
 	height: 39px;
 	width: 79px;
-	background-image: url(../images/home_hover.jpg);
-	background-repeat: no-repeat;
 	text-align: center;
 	color: #ffffff;
-	
+
 }
 .logoNav{
 	position: relative;
