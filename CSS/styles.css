@@ -385,8 +385,13 @@ h2{
 }
 nav{
 	position: relative;
-	margin: 35px auto;
+	margin-left:70px;
+	margin-top: 34px;
+}
+.navigation{
 	float: left;
+	width:900px;
+	
 	
 }
 .navigation li{
@@ -400,6 +405,7 @@ nav{
 	color: #000000;
 	display: block;
 	text-align: center;
+	
 	height: 39px;
 	width: 80px;
 	
