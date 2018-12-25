@@ -426,6 +426,23 @@ nav{
 	color: #ffffff;
 
 }
+.navigation li:focus{
+	display: block;
+}
+.navigation li a:focus{
+	display: block;
+	margin:-16px 0  0 0;
+	padding: 0;
+	padding-top: 10px;
+	height: 39px;
+	width: 79px;
+	text-align: center;
+	background-image: url(../images/home_hover.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+
+}
+
 .logoNav{
 	position: relative;
 	height:108px;
