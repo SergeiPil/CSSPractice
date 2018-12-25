@@ -385,14 +385,8 @@ h2{
 }
 nav{
 	position: relative;
-	margin-left:70px;
-	margin-top: 34px;
-}
-.navigation{
+	margin: 35px auto;
 	float: left;
-	width:900px;
-	
-	
 }
 .navigation li{
 	font-weight: bolder;
@@ -405,7 +399,6 @@ nav{
 	color: #000000;
 	display: block;
 	text-align: center;
-	
 	height: 39px;
 	width: 80px;
 	
