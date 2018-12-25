@@ -18,14 +18,11 @@ header{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-    height:556px;
+  height:556px;
 	background-image: url(../images/top_bg.jpg);
 	background-size: auto 524px;
 	background-repeat: repeat-x;
 	border-bottom: 1px solid #ABABAB;
-	
-	
-	
 }
 
 footer{
@@ -48,14 +45,6 @@ footer{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	
-	
-	
-}
-main{
-	position: relative;
-	
-	
 }
 .wrapperContent{
 	position: relative;
@@ -63,14 +52,11 @@ main{
 	height: 774px;
 	margin-left: auto;
 	margin-right: auto;
-	
-
 }
 .botFooter{
 	width:1000px;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 .botMenu{
 	font-size: 13px;
@@ -80,7 +66,7 @@ main{
 	margin-left: 35px;
 }
 
-#copRight{
+.copRight{
 	color:#566369;
 	font-size:12px;
 	margin-top: 53px;
@@ -92,7 +78,6 @@ main{
 .listMenu li a{
 	color:#F78D1A;
 	padding:0 15px 0 13px;
-	
 }
 .listMenu li a:hover{
 	color:#8AAE00;
@@ -105,7 +90,6 @@ main{
 	width: 710px;
 	height: 687px;
 	top: 84px;
-	
 }
 .wrapperLeftContent{
 	position: relative;
@@ -119,11 +103,10 @@ main{
 	font-weight: 600;
 	text-transform: uppercase;
 }
-p #welcome1{
+p .welcome1{
 	font-size: 29px;
 	font-weight: bold;
 	color: #000000;
-
 }
 .hed1{
 	padding-top: 15px;
@@ -157,7 +140,7 @@ p #welcome1{
 .doubleRead{
 	padding-top: 20px;
 }
-#hed3{
+.hed3{
 	text-transform: uppercase;
 	font-size: 25px;
 	padding-top:15px;
@@ -195,9 +178,6 @@ p #welcome1{
 	background-color: #F6F6F6;
 	background-image: url(../images/login_top.jpg);
 	background-repeat: no-repeat;
-	
-	
-	
 }
 .wrapperCheckIn{
 	position: relative;
@@ -208,7 +188,6 @@ p #welcome1{
 	border-bottom:1px solid #E1E1E1;
 	top:25px;
 	border-radius:0 0 10px 10px;
-	
 }
 .formMain{
 	position: relative;
@@ -223,7 +202,7 @@ p #welcome1{
 	color:#566369;
 	font-size: 13.5px;
 	}
-#labelReg1{
+.labelReg1{
 	margin-top: 10px;
 }
 .labelReg2{
@@ -241,10 +220,10 @@ p #welcome1{
 .textReg:hover{
 	color:#F78D1A;
 }
-#textRegNew{
+.textRegNew{
 	margin-top: 0px;	
 }
-#buttonLog{
+.buttonLog{
 	display: inline-block;
 	margin-left: 36px;
 	color: #FFF;
@@ -255,12 +234,11 @@ p #welcome1{
 	border: none;
 	font-weight: bold;
 	outline: none;
-	
 }
-#buttonLog:active{
+.buttonLog:active{
 	outline: none;
 }
-#buttonLog:hover{
+.buttonLog:hover{
 	background:linear-gradient(#EB8813, #E38916) #E38916;
 }
 .formFields{
@@ -276,7 +254,7 @@ p #welcome1{
 	height: 27px;
 	width:170px;
 }
-#usLog{
+.usLog{
 	color: #8AAE00;
 	font-size: 24px;
 	font-weight: bolder;
@@ -293,12 +271,10 @@ p #welcome1{
 	border-radius: 10px;
 	font-size: 10px;
 	background-color: #F6F6F6;
-
 }
 .eventTop{
 	position:absolute;
 	width:100%;
-	
 }
 .wrapperNews{
 	position:absolute;
@@ -309,9 +285,8 @@ p #welcome1{
 	border-right:1px solid #E1E1E1;
 	border-bottom:1px solid #E1E1E1;
 	border-radius:0 0 10px 10px;
-	
 }
-#hedNews{
+.hedNews{
 	padding-left: 63px;
 	margin-top: -40px;
 	font-size: 26px;
@@ -327,7 +302,7 @@ p #welcome1{
 	padding-top: 7px;
 	padding-bottom: 5px;
 }
-#dateDisp1{
+.dateDisp1{
 	padding-top: 0px;
 }
 input[placeholder="enter your name"]{
@@ -362,8 +337,6 @@ h1{
 	font-size: 39px;
 	padding-top: 111px;
 	padding-left:545px;
-	
-	
 }
 h2{
 	font-size: 33px;
@@ -371,7 +344,7 @@ h2{
 	padding-top: 6px;
 	padding-left:545px;
 }
-#topPhr{
+.topPhr{
 	padding-left:545px;
 	color: #FFFFFF;
 	font-size: 11.6px;
@@ -391,24 +364,19 @@ nav{
 .navigation{
 	float: left;
 	width:900px;
-	
-	
 }
 .navigation li{
 	font-weight: bolder;
 	font-size: 13px;
 	float: left;
 	padding: 18px 14px 0 0;
-	
 }
 .navigation li a{
 	color: #000000;
 	display: block;
 	text-align: center;
-	
 	height: 39px;
 	width: 80px;
-	
 }
 .navigation li:hover{
 	display: block;
@@ -424,7 +392,6 @@ nav{
 	width: 79px;
 	text-align: center;
 	color: #ffffff;
-
 }
 .navigation li:focus{
 	display: block;
@@ -440,27 +407,22 @@ nav{
 	background-image: url(../images/home_hover.jpg);
 	background-repeat: no-repeat;
 	color: #FFFFFF;
-
 }
-
 .logoNav{
 	position: relative;
 	height:108px;
 	display: flex;
-	
 }
-#logo{
+.logo{
 	position: relative;
 	top: 17%;
 	left:1.5%;
-	
-
 }
 .callTop{
 	position: relative;
 	height: 50px;
 	}
-#callUs{
+.callUs{
 	position: absolute;
 	top:18px;
 	right:60px;
@@ -468,14 +430,14 @@ nav{
 	font-size: 12px;
 	font-weight: 700;
 }
-#but1{
+.but1{
 	width: 96px;
 	height: 32px;
 	border-radius: 5px;
 	border: none;
 	background:linear-gradient(to bottom, #EEEEEE, #B4B4B4);
 }
-#but1:hover{
+.but1:hover{
 	color: #F78D1A;
 }
 .infoLabel{
@@ -489,15 +451,14 @@ nav{
 	padding-left: 31px;
 	z-index: -1;
 	}
-
-	#infoL1{
+	.infoL1{
 		text-transform: uppercase;
 		padding-top: 40px;
 		color: #516372;
 		font-weight: bolder;
 		font-size: 24px;
 	}
-	#infoL2{
+	.infoL2{
 		padding-top: 8px;
 		color: #959C9F;
 		font-size: 16px;
