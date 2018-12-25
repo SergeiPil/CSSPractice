@@ -34,7 +34,7 @@ footer{
 	background-size: auto 122px;
 	background-repeat: repeat-x;
 }
-.topHeader{
+.top-header{
 	margin: 0;
 	padding: 0;
 	width:1000px;
@@ -46,19 +46,19 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 }
-.wrapperContent{
+.wrapper-content{
 	position: relative;
 	width:1000px;
 	height: 774px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.botFooter{
+.bot-footer{
 	width:1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.botMenu{
+.bot-menu{
 	font-size: 13px;
 	font-weight: bold;
 	color:#F78D1A;
@@ -66,32 +66,32 @@ footer{
 	margin-left: 35px;
 }
 
-.copRight{
+.cop-right{
 	color:#566369;
 	font-size:12px;
 	margin-top: 53px;
 	margin-left: 65px;
 }
-.listMenu{
+.list-menu{
 	display: flex;
 }
-.listMenu li a{
+.list-menu li a{
 	color:#F78D1A;
 	padding:0 15px 0 13px;
 }
-.listMenu li a:hover{
+.list-menu li a:hover{
 	color:#8AAE00;
 }
-.listMenu li a:focus{
+.list-menu li a:focus{
 	color:#8AAE00;
 }
-.leftContent{
+.left-content{
 	position: absolute;
 	width: 710px;
 	height: 687px;
 	top: 84px;
 }
-.wrapperLeftContent{
+.wrapper-left-content{
 	position: relative;
 	margin-left: 30px;
 	width: 680px;
@@ -128,7 +128,7 @@ p .welcome1{
 .parag3,.parag4{
 	padding-top: 7px;
 }
-.readMore {
+.read-more {
 	padding-top:15px;
 	padding-bottom: 15px;
 	font-size: 11px;
@@ -137,7 +137,7 @@ p .welcome1{
 	list-style-image: url(../images/green_dot.jpg);
 	list-style-position: inside;
 }
-.doubleRead{
+.double-read{
 	padding-top: 20px;
 }
 .hed3{
@@ -152,23 +152,23 @@ p .welcome1{
 	padding-top:10px;
 	padding-bottom: 10px;	
 }
-.loadTime, .repairPNG,.botMenu,.copyRight{
+.load-time, .repair-png,.bot-menu,.copy-right{
 	float: left;
 }
-.loadingTime{
+.loading-time{
 	padding-top:25px;
 }
-.repairMan{
+.repair-man{
 	padding-top: 30px;
 }
-.repairMan,.loadingTime{
+.repair-man,.loading-time{
 	padding-left: 115px;
 }
-.loadTime,.repairPNG{
+.load-time,.repair-png{
 	position: relative;
 	bottom: -35px;
 }
-.formRegister{
+.form-register{
 	position: absolute;
 	right:15px;
 	top:114px;
@@ -179,7 +179,7 @@ p .welcome1{
 	background-image: url(../images/login_top.jpg);
 	background-repeat: no-repeat;
 }
-.wrapperCheckIn{
+.wrapper-check-in{
 	position: relative;
 	height: 199px;
 	width: 99.2%;
@@ -189,7 +189,7 @@ p .welcome1{
 	top:25px;
 	border-radius:0 0 10px 10px;
 }
-.formMain{
+.form-main{
 	position: relative;
 	top:-19px;
 }
@@ -197,18 +197,18 @@ p .welcome1{
 	color:#F61414;
 	padding-left: 2px;
 }
-.labelReg{
+.label-reg{
 	padding-left: 50px;
 	color:#566369;
 	font-size: 13.5px;
 	}
-.labelReg1{
+.label-reg1{
 	margin-top: 10px;
 }
-.labelReg2{
+.label-reg2{
 	padding-top: 5px;
 }
-.textReg{
+.text-reg{
 	list-style-image: url(../images/orange_dot.jpg);
 	list-style-position: inside;
 	font-size: 12px;
@@ -217,13 +217,13 @@ p .welcome1{
 	margin-top: -6px;
 	color:#566369;
 }
-.textReg:hover{
+.text-reg:hover{
 	color:#F78D1A;
 }
-.textRegNew{
+.text-reg-new{
 	margin-top: 0px;	
 }
-.buttonLog{
+.button-log{
 	display: inline-block;
 	margin-left: 36px;
 	color: #FFF;
@@ -235,13 +235,13 @@ p .welcome1{
 	font-weight: bold;
 	outline: none;
 }
-.buttonLog:active{
+.button-log:active{
 	outline: none;
 }
-.buttonLog:hover{
+.button-log:hover{
 	background:linear-gradient(#EB8813, #E38916) #E38916;
 }
-.formFields{
+.form-fields{
 	display: inline-block;
 	border-radius: 15px;
 	border-top: 1px solid #C1C1C1;
@@ -254,7 +254,7 @@ p .welcome1{
 	height: 27px;
 	width:170px;
 }
-.usLog{
+.us-log{
 	color: #8AAE00;
 	font-size: 24px;
 	font-weight: bolder;
@@ -262,7 +262,7 @@ p .welcome1{
 	padding-top:35px;
 	padding-left: 20px;
 }
-.lastNews{
+.last-news{
 	position: relative;
 	top:421px;
 	left:730px;
@@ -272,11 +272,11 @@ p .welcome1{
 	font-size: 10px;
 	background-color: #F6F6F6;
 }
-.eventTop{
+.event-top{
 	position:absolute;
 	width:100%;
 }
-.wrapperNews{
+.wrapper-news{
 	position:absolute;
 	top:80px;
 	width:99.2%;
@@ -286,13 +286,13 @@ p .welcome1{
 	border-bottom:1px solid #E1E1E1;
 	border-radius:0 0 10px 10px;
 }
-.hedNews{
+.hed-news{
 	padding-left: 63px;
 	margin-top: -40px;
 	font-size: 26px;
 	color:#F78D1A;
 }
-.dateDisp{
+.date-disp{
 	list-style-image: url(../images/green_right.jpg);
 	list-style-position: inside;
 	color: #A2995E;
@@ -302,7 +302,7 @@ p .welcome1{
 	padding-top: 7px;
 	padding-bottom: 5px;
 }
-.dateDisp1{
+.date-disp1{
 	padding-top: 0px;
 }
 input[placeholder="enter your name"]{
@@ -321,13 +321,13 @@ input[placeholder="........" ]{
 	padding-left: 52px;
 	padding-top: 10px;
 }
-.textNews{
+.text-news{
 	font-size: 14px;
 	padding-top: 4px;
 	padding-left: 52px;
 	color: #59626B;
 }
-.genInfo{
+.gen-info{
 	width: 100%;
 	height: 365px;
 	position: relative;
@@ -344,7 +344,7 @@ h2{
 	padding-top: 6px;
 	padding-left:545px;
 }
-.topPhr{
+.top-phr{
 	padding-left:545px;
 	color: #FFFFFF;
 	font-size: 11.6px;
@@ -352,7 +352,7 @@ h2{
 	padding-top: 11px;
 	text-align: left;
 }
-.topButton{
+.top-button{
 	padding-top: 24px;
 	padding-left:545px;
 }
@@ -408,7 +408,7 @@ nav{
 	background-repeat: no-repeat;
 	color: #FFFFFF;
 }
-.logoNav{
+.logo-nav{
 	position: relative;
 	height:108px;
 	display: flex;
@@ -418,11 +418,11 @@ nav{
 	top: 17%;
 	left:1.5%;
 }
-.callTop{
+.call-top{
 	position: relative;
 	height: 50px;
 	}
-.callUs{
+.call-us{
 	position: absolute;
 	top:18px;
 	right:60px;
@@ -440,7 +440,7 @@ nav{
 .but1:hover{
 	color: #F78D1A;
 }
-.infoLabel{
+.info-label{
 	position: absolute;
 	top:525px;
 	width:1000px;
@@ -451,14 +451,14 @@ nav{
 	padding-left: 31px;
 	z-index: -1;
 	}
-	.infoL1{
+	.info-l1{
 		text-transform: uppercase;
 		padding-top: 40px;
 		color: #516372;
 		font-weight: bolder;
 		font-size: 24px;
 	}
-	.infoL2{
+	.info-l2{
 		padding-top: 8px;
 		color: #959C9F;
 		font-size: 16px;
@@ -469,6 +469,6 @@ nav{
 	.new2:hover{
 		color: #8AAE00;
 	}
-	.readMore:hover{
+	.read-more:hover{
 		color: #8AAE00;
 	}
